@@ -1,1 +1,14 @@
 C:\Users\kev\Source\GitRepos\Qload\Qload\bin\Debug\Qload.exe.config
+C:\Users\kev\Source\GitRepos\Qload\Qload\bin\Debug\Qload.exe.manifest
+C:\Users\kev\Source\GitRepos\Qload\Qload\bin\Debug\Qload.application
+C:\Users\kev\Source\GitRepos\Qload\Qload\bin\Debug\Qload.exe
+C:\Users\kev\Source\GitRepos\Qload\Qload\bin\Debug\Qload.pdb
+C:\Users\kev\Source\GitRepos\Qload\Qload\bin\Debug\Qload.xml
+C:\Users\kev\Source\GitRepos\Qload\Qload\obj\Debug\Qload.vbprojResolveAssemblyReference.cache
+C:\Users\kev\Source\GitRepos\Qload\Qload\obj\Debug\Qload.Resources.resources
+C:\Users\kev\Source\GitRepos\Qload\Qload\obj\Debug\Qload.vbproj.GenerateResource.Cache
+C:\Users\kev\Source\GitRepos\Qload\Qload\obj\Debug\Qload.exe.manifest
+C:\Users\kev\Source\GitRepos\Qload\Qload\obj\Debug\Qload.application
+C:\Users\kev\Source\GitRepos\Qload\Qload\obj\Debug\Qload.exe
+C:\Users\kev\Source\GitRepos\Qload\Qload\obj\Debug\Qload.xml
+C:\Users\kev\Source\GitRepos\Qload\Qload\obj\Debug\Qload.pdb

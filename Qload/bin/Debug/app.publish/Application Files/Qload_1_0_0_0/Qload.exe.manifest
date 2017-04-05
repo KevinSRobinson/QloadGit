@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Qload.exe" version="1.0.0.0" publicKeyToken="b5ffdd3b67dae3ad" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Qload" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Qload.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qload.exe" size="12760">
+      <assemblyIdentity name="Qload" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FQ45dmjJRjbQ1zMCjZniSZwXdGMrXKeZqGSm8ep9mfI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Qload.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j5XMowm9qYcyNWR87Ke1KpLLXBlaYAR38CaZywZFE9o=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-NKNO59S\kev" issuerKeyHash="7ef219778b633b6584b8c9a1aa54e48065ae4484" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>O9E38HHpggIJINNfFUIS+brffDvsmVrIG7FakJa0//w=</DigestValue></Reference></SignedInfo><SignatureValue>V4MQ9d4h8QNuraJ/NTbK6CIg85N7GiYuXOaObqUoI9So5DDTiB8OngBUeKCsNPwx7/C6KBh6RYJAR+p7qpj/yaKOnJdy6zZuEVXk2gZQco5sD/jjATjTekREzndi46N4ol0Qp4f7EI+yda/D+Jy2zGvZF2i2u5CVqkW0ak1PfTA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>twNyDZ4rrTDrWja03Hxy/ui/UeWHEEiZ2M1jXpShUGjomR2nUq1T0pslOp3YXHymcfkRU6fHI7wpSqe61tku9jAEWLxWG0gN2XBj3fwMW7rYR0i4N3Z70/0WJShSazSLI48Bgv7pSs41K5TnWYQ1LZ9W3ADaLYydwyICy0be0Is=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fcffb496905ab11bc85a99ec3b7cdfbaf91242155fd320090282e971f037d13b" Description="" Url=""><as:assemblyIdentity name="Qload.exe" version="1.0.0.0" publicKeyToken="b5ffdd3b67dae3ad" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-NKNO59S\kev</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZsY/ubzMj5Wencp+t4eIfii4/4kUsQt5BgdqE0kTkJY=</DigestValue></Reference></SignedInfo><SignatureValue>OQe1jWdKcjiMdvssL57t6NV2ry2fFtXp2aYGqwgEjo2k0nK1iA/5uDQ+pX/05V3M7KAjnXE6kaMV2LrpDHVdMrDTtdvRRXrNYbDvcAqmbOSnOLkKM/OrLwZ81w54u9MJwCtN9GHZ24cRcgOUNrrc0JjVtQs2pqw0M/LUMy4mN+0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>twNyDZ4rrTDrWja03Hxy/ui/UeWHEEiZ2M1jXpShUGjomR2nUq1T0pslOp3YXHymcfkRU6fHI7wpSqe61tku9jAEWLxWG0gN2XBj3fwMW7rYR0i4N3Z70/0WJShSazSLI48Bgv7pSs41K5TnWYQ1LZ9W3ADaLYydwyICy0be0Is=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQQ7D1qGFjxJRNwRx8GuGQuTANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARABFAFMASwBUAE8AUAAtAE4ASwBOAE8ANQA5AFMAXABrAGUAdjAeFw0xNzA0MDUxOTA3NTJaFw0xODA0MDYwMTA3NTJaMDExLzAtBgNVBAMeJgBEAEUAUwBLAFQATwBQAC0ATgBLAE4ATwA1ADkAUwBcAGsAZQB2MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3A3INniutMOtaNrTcfHL+6L9R5YcQSJnYzWNelKFQaOiZHadSrVPSmyU6ndhcfKZx+RFTp8cjvClKp7rW2S72MARYvFYbSA3ZcGPd/AxbuthHSLg3dnvT/RYlKFJrNIsjjwGC/ulKzjUrlOdZhDUtn1bcANotjJ3DIgLLRt7QiwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHdCyYNA1a7EJpAfX5kB8FU8vmF8pslCcGlANqcBjPJqMhDSF/pzqhP/uSPguCraUqYbeq1WAsnI6Ncn7Tm1P3XU+KR34FizkFEmsC2uI0WFr3EWENPa6ExHvoWc7wS1NccpKNWlh/Dd3Tk7UAvNhN4f6g28pByOzWW73zN61Z5p</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
